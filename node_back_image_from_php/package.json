@@ -1,0 +1,21 @@
+{
+  "name": "node-demo-image-app",
+  "version": "1.0.0",
+  "description": "Image Random Node API",
+  "main": "mynodeapp.js",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "GCar",
+  "license": "ISC",
+  "bugs": {
+    "url": "none"
+  },
+  "homepage": "none"
+}
