@@ -20,6 +20,7 @@ Then git clone!.
 git clone https://github.com/developergit001/3dockers.git
 
 cd 3dockers
+
 in the root of 3dockers:
 
 cd random_images_php
