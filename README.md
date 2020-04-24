@@ -7,9 +7,11 @@ Then login to your docker account.
 --------------------------------------------------
 
 First create a new network called "mylocal1"
+
 docker network create mylocal1
 
 You can list all your networks
+
 docker network ls
 --------------------------------------------------
 
