@@ -1,0 +1,15 @@
+apiVersion: v1 #must be a string (not 1, 2, 3 etc )
+kind: Pod #its the type, in this case, the pod itself
+metadata:
+  name: pod-phpback
+  namespace: default
+  labels: 
+    app: phpback #usefull to do operation with deploy, yaml etc.
+spec:
+  containers: #In this case we have just one, but can do more than one.
+    - name: phpback
+      image: caraballopablo/devrepo:phpback #its the name of the local image with the username, for default its trying to find it in dockerhub, you can push it first (creating a tag and then push it to dockerhub)     
+      ports:
+      - containerPort: 80 
+  imagePullSecrets:
+  - name: mycredential 
