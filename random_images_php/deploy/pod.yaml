@@ -8,7 +8,7 @@ metadata:
 spec:
   containers: #In this case we have just one, but can do more than one.
     - name: phpback
-      image: caraballopablo/devrepo:phpback #its the name of the local image with the username, for default its trying to find it in dockerhub, you can push it first (creating a tag and then push it to dockerhub)     
+      image: caraballopablo/devrepo:phpback #put it like dockerhub pull example tell you!, its the name of the local image with the username, for default its trying to find it in dockerhub, you can push it first (creating a tag and then push it to dockerhub)     
       ports:
       - containerPort: 80 
   imagePullSecrets:

@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  creationTimestamp: "2020-05-27T18:51:39Z"
+  name: default
+  namespace: default
+  resourceVersion: "373"
+  selfLink: /api/v1/namespaces/default/serviceaccounts/default
+  uid: e220ab4e-5b00-4e70-978a-571484722f7b
+secrets:
+- name: default-token-4vlpj
