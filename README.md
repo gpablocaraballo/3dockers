@@ -4,7 +4,6 @@ _En example with 3 docker projects (php - node and react interacting between the
 ## Pre requisites:
 _Install docker y register in dockerhub._
 _Then login to your docker account._
-_--------------------------------------------------_
 
 _First create a new network called "mylocal1"_
 ```
@@ -15,7 +14,6 @@ _You can list all your networks_
 ```
 docker network ls
 ```
-_--------------------------------------------------_
 
 _Then git clone!._
 ```
